@@ -11,9 +11,9 @@ def roll_baby_roll(left, size):
 def main():
     dice = sys.argv[1].split('d')
     total = 0
-    for dice in roll_baby_roll(int(dice[0]), int(dice[1])):
-        print("Role %d: %d" % dice)
-        total += dice[1]
+    for massons_special_var in roll_baby_roll(int(dice[0]), int(dice[1])):
+        print("Role %d: %d" % massons_special_var)
+        total += massons_special_var[1]
     print("Sum: ", total)
 
 if __name__ == "__main__":
